@@ -8,7 +8,7 @@ def create_app():
     CORS(app, resources={
         r"/*": {
             "origins": [
-                "https://wester-captial-test.web.app/", 
+                "https://wester-captial-test.web.app/"
             ],
             "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
             "allow_headers": ["Content-Type"]
